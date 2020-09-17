@@ -1,6 +1,6 @@
 # Ng Repeat
 
-Directiva estructural que repite un elemento de acuerdo una cantidad explícitamente indicada
+Structural directive to repeat an element N times based of a quantity
 
 ### uso simple
 
@@ -24,5 +24,5 @@ Directiva estructural que repite un elemento de acuerdo una cantidad explícitam
 
 | Nombre             | Descripción                                                                                                              |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
-| index              | Posición del elemento                                                                                                    |
-| onRemoveAt         | hook que se invoca para eliminar una posición específica                                                                 |
+| index              | element position                                                                                                         |
+| onRemoveAt         | hook to trigger when delete and specific element                                                                         |
