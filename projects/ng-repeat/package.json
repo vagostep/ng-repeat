@@ -1,5 +1,6 @@
 {
-  "name": "ng-repeat",
+  "name": "vstep-ng-repeat",
+  "description": "simple structural directive for repeat an element n times",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^9.1.12",
@@ -8,10 +9,22 @@
   "dependencies": {
     "tslib": "^1.10.0"
   },
+  "author": "Andres Díaz Ortiz",
   "homepage": "https://github.com/vagostep/ng-repeat",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vagostep/ng-repeat"
-  }
+    "url": "https://github.com/vagostep/ng-repeat.git"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "tag": "directives"
+  },
+  "keywords": [
+    "angular",
+    "directive",
+    "typescript",
+    "repeat"
+  ]
 }
